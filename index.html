@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .game{
+       
+        width:255px;
+        height:100px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        font-size: medium;
+        margin:150px;
+        color:aliceblue;
+        text-align: center;
+        margin: 5px 0px;
+        color: black;
+        font-weight:bolder;
+        position:absolute;
+        left:450px;
+       
+    }
+
+.title{
+    margin:5px 0px;
+    padding:5px 0px;
+    background-color: crimson;
+    height:35px;
+    color:azure;
+    width:252px;
+    border-radius: 20px;
+    text-align: center;
+   
+    
+}
+.s{
+    
+    width:80px;
+        height:80px;
+        border-radius: 50px;
+    background-color: crimson;
+    color:black;
+    font-size: 50px;
+    text-align:center;
+    margin: 2px;
+     float: left;
+     font-weight: bolder;
+} 
+.s:hover{
+    background-color: black;
+    color:beige
+}
+body:hover{
+    
+}
+
+</style>
+<body>
+    
+<div class="game">
+<div  >
+    <div  class="title" > <span id="span"> x o</span>  </div>
+    
+    <div class="s" id="item1" onclick="gamedata(this.id)"></div>
+
+    
+    <div class="s" id="item2" onclick="gamedata(this.id)"></div>
+    
+    <div class="s" id="item3" onclick="gamedata(this.id)"></div>
+    
+    <div class="s" id="item4" onclick="gamedata(this.id)"></div>
+    <div class="s" id="item5" onclick="gamedata(this.id)"></div>
+    
+    <div class="s" id="item6" onclick="gamedata(this.id)"></div>
+
+
+    <div class="s" id="item7" onclick="gamedata(this.id)"></div>
+    
+    <div class="s" id="item8" onclick="gamedata(this.id)"></div>
+    <div class="s" id="item9" onclick="gamedata(this.id)"></div>
+     </div>
+</div>
+
+<script src="index.js"></script>
+    
+</body>
+
+</html>
